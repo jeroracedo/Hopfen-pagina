@@ -1,0 +1,182 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 110px;
+}
+h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+h5 {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#iconos {
+  font-size: 16px;
+  color: white;
+}
+section {
+  padding: 120px 0;
+}
+
+.bg-light-grey {
+  background-color: #f5f5f5;
+}
+
+.topmargin-xs {
+  margin-top: 15px;
+}
+.topmargin-sm {
+  margin-top: 630px;
+}
+.topmargin-lg {
+  margin-top: 60px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.btn-light {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+/*.text-dark{color: black;}*/
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+  z-index: 9001;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+
+.logo-brand {
+  min-width: 80px;
+  max-width: 110px;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+#hero {
+  background-image: url(img/bar\lejos.jpg);
+  background-size: cover;
+  padding-top: 250px;
+  min-height: 700px;
+  color: white;
+}
+#hero p {
+  color: white;
+}
+/*
+#promos{
+    background-color: #e2e2e2;
+}*/
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.promos-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.promos-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.promos-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+.promos-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.promos-details h2 {
+  margin-bottom: 0px;
+}
+
+.promos-details a h2,
+.promos-details a p {
+  color: white;
+}
+
+.member-container {
+  position: relative;
+  margin: 10px 0;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.member-details {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 20px;
+  z-index: 9000;
+}
+.member-details span {
+  font-size: 14px;
+}
+.member-details i {
+  padding: 0 5px;
+}
+.list-line {
+  padding: 0px;
+}
+
+#footer {
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}
